@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: antiquewhite;
+}
+
+.App .gridBody {
+  width: 60vw;
+  height: 60vh;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+.App .gridBody .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: -1px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App .buttonStart {
+  background: #74b9ff;
+  color: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.App .buttonStart:hover {
+  background: #0984e3;
+}
+
+.legenda {
+  position: absolute;
+  right: 300px;
+  top: 120px;
+}
+
+.legenda ul {
+  list-style-type: none;
+  padding: none;
+}
+
+.legenda .legendBoi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.legenda .legendBoi p {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=App.css.map */

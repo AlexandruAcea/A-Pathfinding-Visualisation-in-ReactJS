@@ -1,0 +1,39 @@
+.tileBody {
+  width: 50px;
+  height: 50px;
+
+  margin-right: -1px;
+
+  border: solid 1px black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tileBody.wall {
+  background: #636e72;
+}
+
+.tileBody.start {
+  background: #55efc4;
+}
+
+.tileBody.end {
+  background: #e84393;
+}
+.tileBody.path {
+  background: #fdcb6e;
+}
+
+.tileBody.visited {
+  background: #ff9ff3;
+}
+
+.tileBody.visiting {
+  background: #5f27cd;
+}
+
+.tileBody.normal {
+  background: none;
+}
